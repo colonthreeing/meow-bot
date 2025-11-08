@@ -1,0 +1,6 @@
+services:
+  discordbot:
+    image: meow-bot:latest
+    environment:
+      - TOKEN=[YOUR DISCORD BOT TOKEN]
+      - CATBOX_USERHASH=[YOUR CATBOX.MOE USERHASH]

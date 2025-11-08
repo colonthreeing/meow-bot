@@ -10,7 +10,7 @@ from catbox_api import catboxAPI
 
 import random
 
-assert dotenv.load_dotenv()
+dotenv.load_dotenv()
 token = str(os.getenv("TOKEN"))
 catbox_token = str(os.getenv("CATBOX_USERHASH"))
 
